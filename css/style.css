@@ -1,0 +1,32 @@
+body {
+  color: white;
+  background-color: #111111;
+  background-image: url('https://i.gifer.com/Hn1r.gif');
+  background-position: 85% 0;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+}
+
+h1 {
+  color: #ffcc01;
+}
+
+p {
+  font-size: 20px;
+}
+
+label {
+  font-size: 15px;
+}
+
+button {
+  margin: 15px 0 0 5%;
+  padding: 5px 10px;
+  background: #ffcc01;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+h2{
+  color: #ffcc01;
+}
