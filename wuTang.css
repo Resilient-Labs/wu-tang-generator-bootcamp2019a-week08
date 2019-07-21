@@ -1,0 +1,151 @@
+/******************************************
+/* SETUP
+/*******************************************/
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+body {
+  background-image: url('bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #13130f;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  line-height: 1;
+  padding: 5% 10%;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+h1, div p {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: .1em;
+  color: #ffd148;
+}
+
+form{
+  width: 40%;
+  font-size: 18px;
+  margin-left: 5%;
+}
+
+form p {
+  clear: left;
+  padding: 15px 0;
+}
+
+form p, .welcome{
+  margin: 10px 0;
+  font-family: 'Rock Salt', cursive;
+}
+
+form, div{
+  float: left;
+}
+
+div {
+  width: 55%;
+  text-align: center;
+  padding: 50px 0 0 3%;
+}
+
+.welcome {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+input{
+  width: 6%;
+  margin: 0 0 5px 3%;
+}
+
+/* input checked css from: https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons */
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffd148;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+span {
+  display:block;
+  width:91%;
+  margin-bottom: 7px;
+}
+
+input, span {
+  float:left;
+}
+
+button {
+  clear: both;
+  width:30%;
+  background-color:inherit;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 30px 0;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  border-radius: 10px;
+}
