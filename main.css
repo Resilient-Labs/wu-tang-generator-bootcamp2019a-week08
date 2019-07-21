@@ -1,0 +1,59 @@
+
+      html{
+        background-image: url("http://www.sclance.com/wallpapers/wu-tang-clan-wallpaper/wu-tang-clan-wallpaper_2075044.jpg");
+
+      }
+
+    legend{
+      color: gold;
+      padding: 2%;
+      font-size: 2rem
+    }
+
+    div{
+      border: 1px solid black;
+      padding:2%;
+    }
+
+    body{
+      font-family: sans-serif;
+    }
+
+    header{
+      background-color: black;
+      height: 250px;
+      text-align: center;
+      height: 165px;
+
+    }
+
+    h1, p{
+      color: white;
+    }
+
+    h1{
+      font-size: 3rem;
+    }
+
+    p{
+      font-size: 1.8rem;
+      width: 91%;
+      margin: auto;
+    }
+
+  #responses{
+    background: black;
+  }
+
+  label{
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  body{
+    width: 70%;
+    margin:auto;
+  }
+input{
+  margin-left: 2%;
+}
