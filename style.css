@@ -1,0 +1,63 @@
+form {
+  width: 30%;
+  margin-left: 5%;
+}
+
+form, img {
+  float: left;
+}
+
+img {
+  width: 65%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.logo {
+  width: 63%;
+  height: 600px;
+  margin: 0;
+}
+
+input {
+  width: 20%;
+  margin: 0;
+}
+
+span {
+  font-size: 1em;
+  font-family: 'Cuprum', sans-serif;
+}
+
+span {
+  display: block;
+  width: 80%;
+}
+
+input, span {
+  float: left;
+}
+
+button {
+  display: block;
+  clear: both;
+}
+
+p {
+  margin-top: 15px;
+}
