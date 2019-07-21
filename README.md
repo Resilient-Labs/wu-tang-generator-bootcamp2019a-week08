@@ -9,7 +9,7 @@
 
 ## Design and Development:
 **Tech Used** HTML, CSS, JavaScript:
-Based on if users selected mostly options A, B, C, D, or E- they would get their corresponding names. If they scored equally between any values, the first alphabetical letter is chosen.
+Based on if users selected mostly options A, B, C, D, E, or F- they would get their corresponding names. If they scored equally between any values, the first alphabetical letter is chosen.
 
 ## Reflections:
-I really enjoyed building a name generator / survey because it's used a lot by popular sites and apps. It was fun to dig into the logic behind them and create my own! 
+I really enjoyed building a name generator / survey because it's used a lot by popular sites and apps. It was fun to dig into the logic behind them and create my own!

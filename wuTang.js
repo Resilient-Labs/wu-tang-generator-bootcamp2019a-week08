@@ -1,6 +1,6 @@
 document.querySelector("button").addEventListener("click", function(){
   window.scrollTo(500, 0);
-  //gets selected value from questions 1 - 5 --> A,B,C,D, or E
+  //gets selected value from questions 1 - 5 --> A,B,C,D,E, or F
   let q1 = document.querySelector('input[name="q1"]:checked').value;
   let q2 = document.querySelector('input[name="q2"]:checked').value;
   let q3 = document.querySelector('input[name="q3"]:checked').value;
