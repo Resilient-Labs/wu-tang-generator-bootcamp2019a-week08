@@ -1,0 +1,33 @@
+body{
+  background-image: url(https://cdn.dribbble.com/users/1000033/screenshots/4022493/wutang.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Monoton', cursive;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+form{
+  width: 30%;
+}
+input{
+  width: 20%;
+  color: blue;
+  margin: 0;
+}
+span {
+  display:block;
+  width:80%;
+}
+input, span {
+  float:left;
+}
+button {
+  display: block;
+  clear:both;
+}
+p {
+  margin-top: 15px;
+  font-size: 18px;
+}
