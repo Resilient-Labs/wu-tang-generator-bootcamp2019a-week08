@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 3em;
+  color: yellow;
+  padding: 3%;
+  margin: 0;
+  text-align: center;
+}
+
+.topDescription {
+  padding-left: 4%;
+  margin: 0;
+}
+
+
+p {
+  font-weight: 900;
+}
+
+
+form {
+  padding-left: 4%;
+}
+
+
+section {
+  background-color: black;
+  color: white;
+  width: 70%;
+  margin: auto;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.7em;
+}
+
+#hi {
+  padding-left: 4%;
+  padding-bottom: 75px;
+}
