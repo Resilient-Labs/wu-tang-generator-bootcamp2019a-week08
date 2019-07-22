@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+
+    legend{
+
+      border: 2px solid black;
+      padding: 2%;
+      margin: 2%;
+    }
+
+    div{
+
+      padding:2%;
+    border: 15px solid white;
+
+    }
+
+     label{
+       margin: 1%;
+     }
+    form{
+      font-family: sans-serif;
+      background-color: #f4f1ed;
+      font-size: 1.5rem;
+    }
+
+    giphy-embed{
+      margin: 3%;
+    }
+
+button{
+  width: 100%;
+  /* padding: 2%; */
+  background-color: brown;
+  color:white;
+  font-size: 40px
+}
+
+body{
+  font-family: sans-serif;
+  padding: 0px;
+}
+h3 {
+    margin-left: 30%;
+    display: inline;
+    margin-top: 1rem;
+}
+
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>what's your Wu Tang name? Answer the questios below and find out!</h1>
+
+    <form id="responses" action="index.html" method="post">
+      <div class="">
+
+          <legend>Do you like Piña Colada's?</legend>
+
+          <iframe src="https://giphy.com/embed/R76RiSe77xlrq" width="172" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <label for="yes">yes
+          <input type="radio" class = "positve" name="answer" value="yes">
+          </label>
+
+          <label for="no">no
+          <input type="radio" id ="no" name="answer" value="no">
+          </label>
+
+      </div>
+
+      <div class="">
+
+          <legend>Do you have any silbings?</legend>
+        <iframe src="https://giphy.com/embed/241LfGhONZv5EWosVV" width="220" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <label for="yes">yes
+          <input type="radio" class = "positve" name="answer2" value="yes">
+          </label>
+
+          <label for="no">no
+          <input type="radio" id ="no" name="answer2" value="no">
+          </label>
+      </div>
+
+      <div class="">
+
+          <legend>Ever used a Ouija Board?</legend>
+          <iframe src="https://giphy.com/embed/XaO4yoeSvwBA4" width="220" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <label for="yes">yes
+          <input type="radio"  class = "positve"name="answer3" value="yes">
+          </label>
+
+          <label for="no">no
+          <input type="radio" id ="no" name="answer3" value="no">
+          </label>
+      </div>
+
+      <div class="">
+
+          <legend>Do you know how to use Chopsticks?</legend>
+          <iframe src="https://giphy.com/embed/A0ZvrhANJ9i3m" width="234" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <label for="yes">yes
+          <input type="radio" class = "positve" name="answer4" value="yes">
+          </label>
+
+          <label for="no">no
+          <input type="radio" id ="no" name="answer4" value="no">
+          </label>
+      </div>
+
+      <div class="">
+          <legend>Have you ever left the United States? </legend>
+          <iframe src="https://giphy.com/embed/3otO6PdMBM6cTLlhOU" width="220" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+          <label for="yes">yes
+          <input type="radio" class = "positve" name="answer5" value="yes">
+          </label>
+
+            <label for="no">no
+          <input type="radio" id ="no" name="answer5" value="no">
+        </label>
+      </div>
+
+      <button type="button" name="button" id="submit">Submit!</button>
+
+      <h3>Your Wu Tang name is <span id="generatedName"></span></h3>
+
+    </form>
+
+    <script src = "main.js"></script>
+
+
+  </body>
+</html>
