@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(images/background.png);
+  font-family: 'Fascinate', cursive;
+}
+
+h1{
+  color: white;
+  margin-left: 8%;
+  margin-top: 125px;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+form{
+  margin-left: 2%;
+  font-size: 1.5rem;
+}
+
+button{
+  margin-left: 2%;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  float: left;
+  display: inline-block;
+}
+
+p{
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+span{
+  float: left;
+  display: inline-block;;
+  font-size: 3rem;
+  padding-right: 2%;
+  color: white
+}
+
+h2{
+  margin-left: 2%;
+  display: inline-block;
+  float: left;
+  font-size: 2rem;
+  margin-top: 15px;
+}
