@@ -1,0 +1,52 @@
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/wutang.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+input {
+ background-color: white;
+ border: solid 1px red;
+ width: 25%;
+ height: 60px;
+ padding: 25px;
+ position: relative;
+ margin-bottom: 20px;
+}
+
+p {
+
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  color: white;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+h2 {
+
+margin: 5% 0 0 0 ;
+font-weight: 300;
+color: white;
+font-size: 50px;
+line-height: 35px;
+background-color: black;
+
+}
+
+span {
+
+  margin: 5% 0 0 0 ;
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+  line-height: 35px;
+  background-color: black;
+
+}
