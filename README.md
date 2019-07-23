@@ -7,4 +7,4 @@ Our group had a fun time w/ this project. I think because we were enjoying ourse
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
