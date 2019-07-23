@@ -2,7 +2,7 @@
 
 The goal of the project is to create a Wu-Tang Clan name generator. The user is presented with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator). 
 
-<img src=".png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
+<img src="wutangscreenshot.png?raw=true" alt="screenshot wu-tang name generator" height="200px">
 
 ## How It's Made:
 
