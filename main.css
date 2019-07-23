@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box
+}
+
+legend {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+  color: white;
+  border: 1px solid yellow;
+  padding: 2%;
+}
+
+div {
+  text-align: center;
+  padding:2%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+}
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05c62a9d-d63d-4363-9d4c-85886a7b0147/d2aesz2-534a4967-8615-4935-aaf7-a5343879e17a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1YzYyYTlkLWQ2M2QtNDM2My05ZDRjLTg1ODg2YTdiMDE0N1wvZDJhZXN6Mi01MzRhNDk2Ny04NjE1LTQ5MzUtYWFmNy1hNTM0Mzg3OWUxN2EuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jUM_hW3MIe3eI0R8t5MEP8rz817v-gLDiWHKPS7fXpo");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+label {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+button#submit {
+    padding: 14px;
+}
