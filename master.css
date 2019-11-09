@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background: black;
+  color:yellow;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: underline;
+}
+button {
+  margin-top: 1%;
+  width: 100px;
+}
+section {
+  margin: 1%;
+}
