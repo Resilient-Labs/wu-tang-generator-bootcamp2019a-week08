@@ -1,0 +1,15 @@
+.headerSpace{
+  text-align: center;
+}
+.questions{
+  text-align: center;
+}
+.resultSpace{
+  text-align: center;
+  margin-top: 2%;
+}
+body{
+  background-image: url("https://library.kissclipart.com/20180903/tqw/kissclipart-background-frame-png-clipart-borders-and-frames-cl-9c49f058c068aeaf.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
