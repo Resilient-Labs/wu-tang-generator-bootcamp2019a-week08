@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi-d-images.vice.com%2Fimages%2Farticles%2Fmeta%2F2016%2F08%2F12%2Flisten-now-to-newly-released-wu-tang-clan-music-from-the-90s-1470979631.jpg%3Fcrop%3D1xw%3A0.99881756756757xh%3Bcenter%2Ctop%26resize%3D2000%3A*%26output-format%3Dimage%2Fjpeg%26output-quality%3D75&f=1&nofb=1);
+    background-repeat: round;
+    color: white;
+}
+header{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+h4{
+    color:red;
+    font-size: 40px;
+}
+label{
+    font-size: 30px;
+    color: white;
+ 
+}
+span{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+
