@@ -1,6 +1,6 @@
-# 🚀 Project: Complex NASA API
+# 🎤 Project: Wu-Tang Name Generator
 
-### Goal: Use NASA's API to return all of their facility locations (~400). Display the name of the facility, its location, and the weather at the facility currently.
+### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
 * **Project Title: Wu Tang Name Generator**
   - This webpage gives you a wu tang name, based on the way you answer the questions.
