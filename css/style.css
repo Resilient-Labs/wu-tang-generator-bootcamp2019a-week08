@@ -1,0 +1,34 @@
+h1{
+  color:red;
+  display: flex;
+  justify-content: center;
+}
+
+label{
+  display: block;
+
+}
+select{
+    margin-bottom: 10px;
+}
+body{
+  margin-top: 20px;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-DP2yVBUEPYg%2FUwAheYfAMoI%2FAAAAAAAAJPA%2FIMn_OqhojlQ%2Fs1600%2Fwutang.jpg&f=1&nofb=1');
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+label{
+  font-size: xx-large;
+}
+section{
+display: flex;
+justify-content: center;
+
+}
+button{
+ display: flex;
+ justify-content: center;
+ margin-left: 52em;
+}
