@@ -1,111 +1,99 @@
 *{
   box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-h1{
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: yellow;
-}
-span{
-  color:black;
-}
-button{
-  font-size: 30px;
-  color: black;
-  background-color: white;
-  padding: 8px;
-  display:block;
-  margin:auto;
-    font-family: fantasy;
-    border-radius: 10px;
-
-}
-label{
-  display: block;
-  color: yellow;
-}
-
-h2{
-margin-top: auto;
-
-}
-h3{
-  text-align: center;
-  font-size: 30px;
-  font-family: fantasy;
-  position: relative;
-  color: yellow;
-  background-color: black;
-   top: 30px;
-}
-.container{
-  margin: auto;
-  text-align: center;
-  margin-bottom: 20px;
-}
-select{
-  margin-bottom: 20px;
-}
-label{
-  display: block;
-  background-color: black;
-  width:30%;
-  margin: auto;
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: yellow;
-}
 body{
-  background-image: url("image.jpg");
-  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
-/* .change{
-  color:yellow;
-  background-color: yellow;
-  width:30%;
-  margin: auto;
-} */
+header{
+  height: 10vh;
+  width: 100%;
+  border: 1px solid black;
+}
+.search {
+  height: 10vh;
+  width: 20%;
+  border: 1px solid black;
+  float: left;
+}
+.title {
+  height: 10vh;
+  width: 60%;
+  border: 1px solid black;
+  float: left;
+}
+h1 {
+  text-align: center;
+}
+.signUp {
+  height: 10vh;
+  width: 20%;
+  border: 1px solid black;
+  float: left;
+}
+.topLink:first-of-type {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.topLink {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+  margin-right: 5%;
+}
+.main {
+  height: 75vh;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+}
+.leftSec {
+  height: 75vh;
+  width: 20%;
+  border:1px solid black;
+  float: left;
+}
+.leftSec nav ul a li {
+  padding-bottom: 5%;
+}
+.leftLink {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.midSec{
+  height: 75vh;
+  width: 80%;
+  border:1px solid black;
+  float: left;
+}
+.midSec h2 {
+  text-align: center;
+}
+footer {
+  height: 15vh;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+}
+.footerLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer ul {
+  padding: 0;
+  float: left;
+}
+footer ul li {
+  list-style: none;
+}
+footer p {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
