@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+body{
+  font-size: 10px;
+  background-image: url(wuTang.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+fieldset{
+  width: 46%;
+  font-size: 1.3rem;
+}
+
+button{
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
