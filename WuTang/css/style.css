@@ -1,0 +1,17 @@
+body{
+  background-color: yellow;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+label{
+  display: block;
+}
+
+button{
+  color: yellow;
+  background-color: black;
+  border-radius: 30px;
+}
