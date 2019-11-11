@@ -1,0 +1,22 @@
+form {
+  margin-top: 10%;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+.wrapper {
+  float: left;
+  margin-left: 5%;
+}
+button {
+  display: block;
+  clear: left;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 10%;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  outline: 0;
+}
