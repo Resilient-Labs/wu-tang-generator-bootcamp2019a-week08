@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-image: url("images/wu-tang-clan-yellow-w-logo.png");
   font-family: 'McLaren', cursive;
   font-size: 10px;
 }
@@ -20,9 +20,10 @@ h1{
 }
 p {
 font-size: 1.6rem;
-color: gold;
+color: white;
 }
 .return{
+  color: white;
   font-size: 3.5rem;
   margin-top: 30%;
   text-align: center;
