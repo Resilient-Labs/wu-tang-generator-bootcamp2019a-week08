@@ -2,21 +2,21 @@
 
 ### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
+### Wu-Tang Gang Gang
+Answer the BuzzFeed-style quiz to generate an arbitrary 'Clan' name.  The same answers always result in the same name.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](https://github.com/anthonybetances/wu-tang-generator-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%207.59.50%20AM.png)
+![alt tag](https://github.com/anthonybetances/wu-tang-generator-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%207.59.37%20AM.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript, Node.js.  Each quiz answer has a numeric value, and the quiz' results are assigned conditionally according to the sum of the user's answer values.
+
+
+## Installation:
+  1. Clone repo
+  2. Run npm install
+
+## How To Use:
+  1. Run node server.js
+  2. Navigate to localhost:8000 in your browser
+  3. Answer each question and click the button to earn your Wu-Tang Clan name
