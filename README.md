@@ -1,22 +1,18 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-tang name generator web application
+This web app is a simple name generator inspired by the Wu-Tang Clan. There are 5 questions and depending on what your answer is for each question, you will get a random name!
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
+**Link to project:** https://youthful-curran-7e9ae1.netlify.com/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](https://github.com/TimTran-Dev/wu-tang-generator-bootcamp/blob/answer/Wu-tang%20screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, Node.js
+
+I used HTML and CSS to style the web application by centering all of the content and adding a simple background image. Next I used JavaScript to link the JavaScript file to the JavaScript server file so that all of the logic is stored inside of the server file. Next I used Node.js to download packages and to host a local server for the web application.
+
+## Lessons Learned:
+
+I learned that you can use the terminal to access files in your local directory. 
+I learned that Node allows you to download packages and start hosting your server.

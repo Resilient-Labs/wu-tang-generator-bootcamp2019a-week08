@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 10px;
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: yellow;
+}
+button {
+  font-size: 2rem;
+  color: yellow;
+  background-color: black;
+  margin-left: 43%;
+  font-family: fantasy;
+  border-radius: 10px;
+}
+label {
+  font-family: fantasy;
+  display: block;
+  color: yellow;
+}
+h3{
+  text-align: center;
+  font-size: 2rem;
+  font-family: fantasy;
+  color: yellow;
+}
+.mainSection{
+  text-align: center;
+  margin-bottom: 20px;
+}
+select{
+  margin-bottom: 30px;
+}
+label{
+  background-color: black;
+  width:25%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: yellow;
+}
+body{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.NqaPpb1LjycUdp0aiVum4QHaEK%26pid%3DApi&f=1);
+  background-size: 100%;
+}
