@@ -1,3 +1,5 @@
+//We worked on this as a house; Gardner.
+
 const button = document.querySelector('button')
 button.addEventListener('click', createName )
 
