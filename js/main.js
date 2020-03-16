@@ -1,3 +1,5 @@
+//*Collaborated with Finesse, Asiah, Vanessa, Zahmir, Nyah, Joshua  */
+
 let button = document.getElementById('button')
 let name = document.getElementById('response')
 button.addEventListener("click", () => {
