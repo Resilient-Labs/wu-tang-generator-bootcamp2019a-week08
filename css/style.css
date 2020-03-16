@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(245, 255, 250);
+}
+h1 {
+  color: pink;
+}
+li{
+  list-style: none;
+  margin-top:5px;
+}
+button{
+  font-size: 20px;
+  margin-left:30px;
+}
