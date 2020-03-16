@@ -1,0 +1,43 @@
+create a function that picks a random name for whatever they want
+
+{
+  random name: "Baller Tornado",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+{
+  random name: "",
+}
+
+make 10 names --> and then be able to pull it up
