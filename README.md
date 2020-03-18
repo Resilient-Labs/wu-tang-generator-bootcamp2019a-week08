@@ -5,11 +5,10 @@
 
 ![ Wu-Tang Name Generator](WutangNameGenerator.png)
 
-I completed the challenge: 5
-I feel good about my code: 4
 
 
-
+# Optimization
+### Answer all 5 survey questions and answers will randomly generate your wutang-name.
 
 ## Tech used: Node.js,CSS, Javascript,html
 
