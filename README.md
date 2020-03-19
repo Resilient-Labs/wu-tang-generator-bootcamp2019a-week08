@@ -10,4 +10,4 @@
 #### Back end server created with Node.js to store values and objects that allowed the transference of data between client and server side.   
 
 # Lesson Learned: 
-#### I used the value attribute in HTML in conjunction with both Javascript and Node.js to produce values in the server that feed into an index to choose the users Wu-Tang name. By writing a fetch request in the main.js, I was able to carry over data to the server to pin point the correct name in the index and send them back to the front end using the object properties.
+#### I used the value attribute in HTML in conjunction with both Javascript and Node.js to feed into an index which matches the user with their Wu-Tang name. By writing a fetch request in the main.js, I was able to carry over data to the server to pin point the correct names in the index and send them back to the front end using the object properties.
