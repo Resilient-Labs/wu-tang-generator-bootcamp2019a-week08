@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  align-content: center;
+  background-image: url("../images/wutangBg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+ width: 100%;
+}
+/* .header p {
+  font-size: 35px;
+  background-color: yellow;
+  color: black;
+  width: 40%;
+  margin: 50px auto;
+} */
+h1 {
+  color: yellow;
+  font-size: 45px;
+  margin-bottom: 0;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bolder;
+}
+form {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  width: 40%;
+  margin: 50px auto;
+  font-family: 'Marcellus SC', serif;
+  margin-top: 1%;
+}
+input, label {
+  font-size: 20px;
+  color: yellow;
+}
+fieldset {
+  border: 0;
+}
+legend {
+  font-size: 25px;
+}
+button {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  font-family: 'Frijole', cursive;
+}
+#result {
+  width: 100%;
+  font-size: 40px;
+  color: yellow;
+  font-weight: bold;
+  font-family: "Trade Winds", cursive;
+}
