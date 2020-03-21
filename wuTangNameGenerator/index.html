@@ -1,0 +1,68 @@
+<!-- Goal: Create a Wu-Tang Clan name generator.
+Present the user with 5 survey questions and based on those answers randomly generate their name.
+The name doesn't have to be exact names, but Wu-Tang sounding-ish names.
+Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator). -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Black+Han+Sans|Bowlby+One+SC|Frijole|Marcellus+SC|Nanum+Pen+Script|Rock+Salt|Staatliches|Trade+Winds|Trirong&display=swap" rel="stylesheet">
+  <title>Wu-Tang Name Generator</title>
+</head>
+
+<body>
+  <section class="header">
+    <h1>Wu-Tang Name Generator</h1>
+    <!-- <p>Fill out the form to get you Wu-Tang Name!</p> -->
+  </section>
+  <section id="container">
+    <form id="generator" class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Are you from The 36 Chambers of Death a.k.a. New York City?</legend>
+        <input id="yesColor" type="radio" value="Yes" name="color">
+        <label for="yesColor">Yes</label>
+        <input id="noColor" type="radio" value="No" name="color">
+        <label for="noColor">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you understand the basic principles of street knowledge, loyalty, and respect?</legend>
+        <input id="yesCake" type="radio" value="Yes" name="Cake">
+        <label for="yesCake">Yes</label>
+        <input id="noCake" type="radio" value="No" name="Cake">
+        <label for="noCake">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Are you at all times prepared for war?</legend>
+        <input id="gotYes" type="radio" value="Yes" name="GOT">
+        <label for="gotYes">Yes</label>
+        <input id="gotNo" type="radio" value="No" name="GOT">
+        <label for="gotNo">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you believe in longevity for da children?</legend>
+        <input id="sportsYes" type="radio" value="Yes" name="Sports">
+        <label for="sportsYes">Yes</label>
+        <input id="sportsNo" type="radio" value="No" name="Sports">
+        <label for="sportsNo">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you believe there is no one like you, and that there never will be?</legend>
+        <input id="musicYes" type="radio" value="Yes" name="Music">
+        <label for="musicYes">Yes</label>
+        <input id="musicNo" type="radio" value="No" name="Music">
+        <label for="musicNo">No</label>
+      </fieldset>
+      <button type="submit" name="button">Enter the 36 Chambers</button>
+    </form>
+  </section>
+
+  <section id="result"></section>
+
+
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
