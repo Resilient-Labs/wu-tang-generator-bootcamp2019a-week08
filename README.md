@@ -1,22 +1,18 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-Tang Generator 
+#### Project Scope: The user selects their favorite options from the five different inputs. Each option contains a unique value that is added in a back end server. The sum equates to an index for arrays containing first and last Wu-Tang names. 
+![](wuTangNameGen/wutang.png)
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON, Node.js
 
-### How to submit your code for review:
+# Optimizations:
+#### Back end server created with Node.js to store values and objects that allowed the transference of data between client and server side.   
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Lesson Learned: 
+#### I used the value attribute in HTML in conjunction with both Javascript and Node.js to feed into an index which matches the user with their Wu-Tang name. By writing a fetch request in the main.js, I was able to carry over data to the server to pin point the correct names in the index and send them back to the front end using the object properties.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# How to install:
+ 1. Clone repo
+ 2. cd into folder
+ 3. Run 'node server.js'
+ 4. Navigate to 'localhost:8000'
