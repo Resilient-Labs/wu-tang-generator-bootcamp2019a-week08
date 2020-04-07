@@ -17,4 +17,4 @@ Optimizations would include the user ability to select categories from a list (f
 # Lesson Learned: 
 * how to work with node
 * how to use randomization 
-* how fun working with other people can be
+* how fun choosing nouns/adjetives can be
