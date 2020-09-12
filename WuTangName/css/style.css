@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+header{
+
+  height: 10rem;
+  background-color: yellow;
+  background-image: url('https://ichef.bbci.co.uk/images/ic/1920x1080/p088zq9j.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50%;
+
+}
+
+body{
+  background-color: green;
+}
+.Buttonfunction{
+  margin-left: 42%;
+  margin-top: 10%;
+
+}
+p{
+margin-left: 23%;
+}
+h1{
+  text-align: center;
+  padding-top:2%;
+  color: blue;
+}
+
+.labelSelection{
+  width: 50%;
+  height: 23rem;
+  margin-top: 4%;
+  background-color: white;
+  margin-left: 30%;
+}
+select, label{
+   margin-left: 32%;
+   margin-top: 4%;
+   width: 30%;
+   display:block;
+   padding-left: 2%;
+}
+
+select:hover{
+  background-color: pink;
+}
