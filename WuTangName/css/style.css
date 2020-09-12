@@ -6,12 +6,24 @@ header{
 
   height: 10rem;
   background-color: yellow;
+  background-image: url('https://ichef.bbci.co.uk/images/ic/1920x1080/p088zq9j.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50%;
+
 }
 
 body{
   background-color: green;
 }
+.Buttonfunction{
+  margin-left: 42%;
+  margin-top: 10%;
 
+}
+p{
+margin-left: 23%;
+}
 h1{
   text-align: center;
   padding-top:2%;

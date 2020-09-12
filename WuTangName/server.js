@@ -45,28 +45,28 @@ const server = http.createServer(function(req, res) {
 
       switch (chosenAnswer) {
         case "redcathorror":
-          newName = 'Master Ninja'
+          newName = 'Rick Astley'
           break;
         case "bluecathorror":
-          newName = 'Bloody assasin'
+          newName = 'Jiggy dong'
           break;
         case "bluedoghorror":
-          newName = 'Donkey Kong'
+          newName = 'Smash la papa'
           break;
         case "reddogcomedy":
-          newName = 'Sweet Pickle'
+          newName = 'Orangy gigigi'
           break;
         case "redcatcomedy":
-          newName = 'Sweet Caroline'
+          newName = 'Meg simpson'
           break;
         case "bluecatcomedy":
-          newName = 'Fabulous Cowboy'
+          newName = 'tickle tickle'
           break;
         case "bluedogcomedy":
-          newName = 'AAAron'
+          newName = 'Fishy dongy latouta'
           break;
         case "reddoghorror":
-          newName = 'Killer bee'
+          newName = 'abrah spidey'
           break;
         default:
           newName = "Childish Gambino";
