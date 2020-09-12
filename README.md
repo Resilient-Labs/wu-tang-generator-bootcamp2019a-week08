@@ -19,7 +19,7 @@ https://festive-archimedes-e2e4a1.netlify.app/
   </ul>
 
 Lesson Learned:
-I learned to create, verify data from the server side and using a fetch api within my script file to access those conditions from the server side, also learned a different to display images by grabbing image address
+I learned to create, verify data from the server side and using a fetch api within my script file to access those conditions from the server side, also learned a different to display images by grabbing  address of images
 
    <h3> Installation </h3>
      <ol> 
