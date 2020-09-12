@@ -1,4 +1,4 @@
- Wu-Tang Clan name generator
+<h1> Wu-Tang Clan name generator </h1>
 
  ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/wu-tang-generator-bootcamp/answer/image.png)
  
