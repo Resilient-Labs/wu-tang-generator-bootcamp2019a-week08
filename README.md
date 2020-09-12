@@ -1,22 +1,33 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+ Wu-Tang Clan name generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+ ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/wu-tang-generator-bootcamp/answer/image.png)
+ 
+ 
+ 
+ 
+ <p> Project Scope: Create an application that utilize node as a way to provide verification to the client side by running the server locally on port 8000. 
+</p>
+<h2> View Project Here </h2>
+https://festive-archimedes-e2e4a1.netlify.app/
 
-### How to submit your code for review:
+<h2> Tech Used </h2>
+  <ul> 
+    <li> HTML</li>
+    <li>CSS</li>
+    <li> JAVASCRIPT</li>
+    <li>NODEJS</li>
+  </ul>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Lesson Learned:
+I learned to create, verify data from the server side and using a fetch api within my script file to access those conditions from the server side, also learned a different to display images by grabbing image address
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+   <h3> Installation </h3>
+     <ol> 
+       <li> Clone repo </li>
+       <li> Install node https://nodejs.org/en/ </li>
+       <li> npm install -g nodemon on your terminal or command prompt</li>
+       <li> cd into project folder  </li>
+       <li> Run nodemon server.js </li>
+       <li> Navigate to your browser to 'Localhost:8000' </li>
+       <li>Once complete make sure to end the server by selecting control c to clear</li>
+      </ol>
