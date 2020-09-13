@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body{
+  height:100vh;
+  background: linear-gradient(rgba(125, 30, 0, 0.3), rgba(125, 30, 0, 0.3)), url("https://media.newyorker.com/photos/59095f57c14b3c606c1059cc/master/pass/141208_r25848.jpg") center repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: gold;
+  font-family: 'Permanent Marker', cursive;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+h1{
+  font-size: 3rem;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+label{
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 5px;
+  color: #fcbf49;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+select{
+  font-size: 1.35rem;
+  color: white;
+  background-color: black;
+  font-family: 'Permanent Marker', cursive;
+}
+p{
+  font-size: 2.5rem;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+button{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  background-color: gold;
+  color: black;
+  border: 3px solid white;
+  outline: none;
+  font-family: 'Permanent Marker', cursive;
+}
+button:hover{
+  filter: drop-shadow(0 0 0.75rem crimson);
+}

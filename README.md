@@ -1,22 +1,15 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+#### Project Scope: The user selects their favorite options from five different questions. Each option contains a unique value that is added in a back end server. The sum of all 5 choices equates to an index for an array containing Wu-Tang names.
 
-### How to submit your code for review:
+- Try it Here: https://practical-fermat-8c7fa0.netlify.app
+![WuTang Name Generator Screenshot](/wuScreen.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# How it was made:
+#### HTML5, CSS3, Javascript, API, JSON, Node.js
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Optimizations:
+#### Calculation of total user score done client side is sent to a back end server created with Node.js. The back end stores the array of Wu Names which sends the corresponding name back to the client, which hides possible Wu Tang names from users.
+
+# Lesson Learned:
+#### I was able to keep client side javascript minimal and clean by making it OOP and keeping calculations and name storage to the server side. I also learned the use of the spread operator to help keep the code efficient by making them separate arguments into my function. 
