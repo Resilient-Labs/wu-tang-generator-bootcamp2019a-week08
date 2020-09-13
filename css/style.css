@@ -1,0 +1,34 @@
+body{
+  /* font-family: 'Rock Salt', cursive; */
+  background-image: url("https://media.giphy.com/media/o14h7skZwY6CQ/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  background-color: rgba(12, 12, 12);
+
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 35px;
+  color: yellow;
+}
+#display{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+  color: yellow;
+}
+.body{
+  text-align: center;
+  margin-top: 49px;
+  color: grey;
+}
+
+p{
+  font-size: 25px;
+}
+input{
+font-size: 19px;
+}
+label{
+font-size: 19px;
+}
