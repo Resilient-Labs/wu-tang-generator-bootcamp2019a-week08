@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2729921.gif");
+}
+label{
+  color: white;
+}
