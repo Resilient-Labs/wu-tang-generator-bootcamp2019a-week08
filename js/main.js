@@ -38,11 +38,11 @@ function myFunction() {
   const seasonPicked = document.getElementById('season').value
 
 
-  fetch(`/api?choices=${colorPicked}${petPicked}${moviePicked} ${seasonPicked}`)
+  fetch(`/api?choices=${colorPicked}${petPicked}${moviePicked}${seasonPicked}`)
     .then(response => response.json())
     .then((data) => {
 
-      document.querySelector('p').innerHTML = `your name is ${data}`
+      document.querySelector('p').innerHTML = `Your Wu-Tang name is ${data}`
     });
 
 }

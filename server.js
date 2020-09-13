@@ -45,10 +45,10 @@ const server = http.createServer(function(req, res) {
 
       switch (chosenAnswer) {
         case "redcathorrorwinter":
-          newName = 'Master Ninja'
+          newName = 'Masta Ninja'
           break;
         case "bluecathorrorwinter":
-          newName = 'Bloody assasin'
+          newName = 'Bloody Assasin'
           break;
         case "bluedoghorrorwinter":
           newName = 'Donkey Kong'
@@ -66,31 +66,31 @@ const server = http.createServer(function(req, res) {
           newName = 'AAAron'
           break;
         case "reddoghorrorwinter":
-          newName = 'Killer bee'
+          newName = 'Killah bee'
           break;
         case "redcathorrorsummer":
-          newName = 'Master Ninja'
+          newName = 'Budaha Fox'
             break;
         case "bluecathorrorsummer":
-          newName = 'Bloody assasin'
+          newName = 'Child Wild'
             break;
         case "bluedoghorrorsummer":
-          newName = 'Donkey Kong'
+          newName = 'Astro Royal'
             break;
         case "reddogcomedysummer":
-          newName = 'Sweet Pickle'
+          newName = 'Flower Face'
             break;
         case "redcatcomedysummer":
-          newName = 'Sweet Caroline'
+          newName = 'Dirty Laundy'
             break;
         case "bluecatcomedysummer":
-          newName = 'Fabulous Cowboy'
+          newName = 'Java Sin'
             break;
         case "bluedogcomedysummer":
-          newName = 'AAAron'
+          newName = 'Diamond Kitty'
             break;
         case "reddoghorrorsummer":
-          newName = 'Killer bee'
+          newName = 'Savy Shabby '
             break;
         default:
           newName = "Childish Gambino";
