@@ -106,6 +106,7 @@ switch (season) {
   default:
     console.log("That's not very Wu Tang of you");
 }
+// depending on the length of the answer user's name in inputed in a certain place 
 res.write(JSON.stringify(builtName));
 res.end();
   })

@@ -1,3 +1,4 @@
+//House Moses: Kim, Carlosalberto, Farrah and Gabriel
 let radios = document.querySelectorAll('.radioSelect')
 let summer = ['Big', 'Cheese', 'Tha', 'Master']
 let fall = ['Ol', 'Dirty', 'Tha', 'Prince']
@@ -17,7 +18,7 @@ radios.forEach(radio => {
   radio.addEventListener('click', () => {
     ansArr.push(radio.value);
   })
-
+// eventlistener fot radio buttons
 })
 
 
@@ -28,7 +29,7 @@ button.addEventListener('click', (e) =>{
     answers: ansArr,
     userName: userName.value
   };
-
+// answers in array
     fetch(`/buildName`, {
       method: 'POST',
       body: JSON.stringify(response),
