@@ -1,22 +1,26 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Week 08 Project: Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+Live Code: 
 
-### How to submit your code for review:
+# How It's Made:
+### Tech used: 
+HTML, CSS, JS, and Node. Create a Wu-Tang name generator with 5 questions tailored to give the user an unique name. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Wu-Tang Final](wutang.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+# Lessons Learned:
+HTML forms and their value attribute data can be fetch through the server side of JavaScript. Was able to see how the html, app.js and server.js moved the data from the arrays and how they would become displayed in the DOM.
+
+# Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+Matching Game: https://github.com/Kim-Flores/matching-card-bootcamp/tree/answer
+
+Palindrome Checker: https://github.com/Kim-Flores/node-palindrome-bootcamp/tree/answer
+
+Coin Flip: https://github.com/Kim-Flores/node-coin-flip-bootcamp/tree/answer
+
