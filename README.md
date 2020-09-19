@@ -6,5 +6,3 @@
 # Made with:
 #### HTML5, CSS3, Javascript, API, JSON, Node.js
 
-# Lesson Learned:
-#### I learned that OOP is efficient method. OOP allows you to reuse and repurpose your code. I am excited to use it in the future.
