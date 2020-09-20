@@ -6,3 +6,4 @@
 # Made with:
 #### HTML5, CSS3, Javascript, API, JSON, Node.js
 
+Learned how to submit a request that would then return user data and display that in the DOM
