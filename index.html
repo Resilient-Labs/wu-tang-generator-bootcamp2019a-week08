@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Wutang Name Generator</title>
+</head>
+<body>
+    <header>
+        <h1>What's your Wu Tang Name?</h1>
+    </header>
+    <section class="container">
+        <form action="">
+            <label for="fightstyle">Choose your sword style</label>
+            <select name="uno" id="uno">
+                <option value="0">Wushu/Kung Fu</option>
+                <option value="1">Shaolin</option>
+                <option value="2">Wu Tang</option>
+                <option value="3">Rapier</option>
+                <!-- <option value="4">Kendo</option>
+                <option value="5">Katana</option>
+                <option value="6">Kenjutsu</option> -->
+            </select>
+            <label for="comida">Choose a food:</label>
+            <select name="uno" id="uno">
+                <option value="0">Thai food</option>
+                <option value="1">Caribbean food</option>
+                <option value="2">Italian food</option>
+                <option value="3">Mexican food</option>
+                <!-- <option value="4">Indian food</option>
+                <option value="5">Fast food</option> -->
+            </select>
+            <label for="poder">Choose your power:</label>
+            <select name="uno" id="uno">
+                <option value="0">Flight</option>
+                <option value="1">Super Strength</option>
+                <option value="2">Invisibility</option>
+                <option value="3">Super Intellect</option>
+                <!-- <option value="4">Super Speed</option>
+                <option value="5">Teleportation</option> -->
+            </select>
+            <label for="artist">Who's your favorite clan member:</label>
+            <select name="dos" id="dos">
+                <option value="0">Method Man</option>
+                <option value="1">Ol' Dirty Bastard</option>
+                <option value="2">RZA</option>
+                <option value="3">Ghostface Killah</option>
+                <!-- <option value="4">Raekwon Da Chef</option>
+                <option value="5">GZA</option>
+                <option value="6">Cappadonna</option>
+                <option value="7">Inspectah Deck</option>
+                <option value="8">U-God</option>
+                <option value="9">Masta Killa</option> -->
+            </select>
+            <label for="matrix">Red Pill or Blue Pill:</label>
+            <select name="dos" id="dos">
+                <option value="0">Blue Pill</option>
+                <option value="1">Red Pill</option>
+                <option value="2">Vitamin D</option>
+                <option value="3">Nah/option>
+            </select>
+        </form>
+    </section>
+    <button id="button">Get your Wu Tang Name</button>
+    <h2 id="results">
+        <span id="first"></span>
+        <span id="second"></span>
+    </h2>
+    
+<!-- got this code from Ibrahim -->
+    <audio controls autoplay id="song">
+        <source src="../wutang/Wu-Tang Clan - Protect Ya Neck (320 kbps).mp3" type="audio/mpeg">
+      </audio>
+       
+    <script type="text/javascript" src="main.js"></script>
+    
+</body>
+</html>

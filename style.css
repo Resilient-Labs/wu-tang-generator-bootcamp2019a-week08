@@ -1,0 +1,47 @@
+*{ margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+h1{
+    color:rgb(213,184,37);
+    margin-left: 12%;
+    font-size: 3rem;
+    font-family: 'Rock Salt', cursive;
+    border: 6px solid #BF5D40;
+    background-color: #463A3A;
+    width:fit-content;
+    margin-bottom: 18px;
+}
+body{
+    background-image: url("../wutang/img/wutang1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    color: rgb(17, 174, 236);
+}
+button{
+    border: 2px solid black;
+    border-radius: 54px;
+    padding: 0.5rem;
+    margin-left: 42%;
+    font-family: 'Rock Salt', cursive;
+    background-color: coral;
+}
+button:hover{
+ background-color: rgb(213,184,37);
+}
+/* * - gets everything, in this case we are getting all the direct children of form */
+form >*{
+display: block;
+margin-left: 27%;
+}
+
+h2{
+  text-align: center;  
+  color: aquamarine;
+  font-size: 2rem;
+}
+
