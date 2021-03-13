@@ -4,4 +4,4 @@
 
 [Checkout my Portfolio](https://www.tamikasterlin.com)
 
-[Application Screenshot](screenshot.png)
+![Application Screenshot](screenshot.png)
