@@ -1,0 +1,74 @@
+body{
+ background-image:url("https://i1.sndcdn.com/artworks-000039156930-940oy0-t500x500.jpg");
+ background-repeat: none;
+
+}
+
+h1{
+  color:maroon;
+  background-color: rgb(203,152,0);
+  width:50%;
+  font-weight: bolder;
+  margin-left:25%;
+
+
+}
+form{
+  background-color: black;
+  width:40%;
+  align-items: center;
+  margin-left:30%;
+}
+
+h3{
+  margin-left:35%;
+  background-color: rgb(203,152,0);
+  font-weight: bolder;
+  width:28%;
+  text-align:center;
+  font-size:25px;
+
+}
+
+button{
+  margin-left:35%;
+  background-color: rgb(203,152,0);
+  font-weight: bolder;
+  width:28%;
+  text-align:center;
+  color:white;
+  border-radius: 25%;
+  height:45%;
+  color:maroon;
+  font-size: 20px;
+
+}
+
+
+div{
+  padding:5px;
+  margin:25px;
+  text-align: center;
+  align-items: center;
+  color:maroon;
+  background-color: rgb(203,152,0);
+  font-weight: bolder;
+
+  
+
+}
+
+legend{
+color:maroon;
+font-size:25px;
+font-weight: bolder;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h3{
+color:maroon;
+
+}
+
+
