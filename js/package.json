@@ -1,0 +1,12 @@
+{
+  "name": "wu-tang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_wu_tang_name.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
