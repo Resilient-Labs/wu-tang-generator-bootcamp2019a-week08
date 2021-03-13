@@ -1,6 +1,6 @@
 // Tamika and Khorally helped me with this
-let firstName = ["No ","Queens","Shadow","Stoop"]
-let lastName = ["Cappa","Katana","OG","Hokage"]
+let firstName = ["Thunderous","Staten","Shadow","Stoop","Mighty","Fearless","Insane","Intellectual","Drunken","Master"]
+let lastName = ["Katana","God","Mercenary", "Overlord","Desperado","Destroyer","Genius","Guru","Jones","Ambassador","Dominator","Conqueror","Mastermind",]
 
 document.querySelector("button").addEventListener("click", first)
 document.querySelector("button").addEventListener("click", last)
