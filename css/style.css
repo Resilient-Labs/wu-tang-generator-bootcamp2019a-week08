@@ -1,0 +1,51 @@
+body{
+    background-image: url("bg.png");
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+img{
+    width: 25%;
+}
+
+section{
+    padding: .5em 1em;
+}
+
+button {
+    font-family: 'DotGothic16', sans-serif;
+    margin-left: 20px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(75, 75, 75);
+    background-color: #ffd04f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #cd760b;
+    margin-top: 40px;;
+  }
+  
+  button:hover {
+    background-color: #ffd68f;
+    color: black;
+  }
+  
+  button:active {
+    background-color: #ffd68f;
+    box-shadow: 0 5px #f0ae57;
+    transform: translateY(4px);
+  }
+
+  select{
+      height: 30px;
+      padding: 3px;
+  }
