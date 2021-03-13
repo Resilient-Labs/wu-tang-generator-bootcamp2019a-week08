@@ -41,7 +41,12 @@ margin-left: 27%;
 
 h2{
   text-align: center;  
-  color: aquamarine;
+  color: #34F6F4;
   font-size: 2rem;
+}
+
+#results{
+    font-family: 'Bangers', cursive;
+    font-size: 5rem;
 }
 
