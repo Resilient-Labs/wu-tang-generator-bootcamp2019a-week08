@@ -36,6 +36,6 @@ function convert(){
     newName.innerText = `Your name is ${firstName} ${middleName} ${secondName}`
   }
   else {
-    newName.innerText = `${userName} is now know as ${firstName} ${middleName} ${secondName}`
+    newName.innerText = `${userName} is now known as ${firstName} ${middleName} ${secondName}`
   }
 }

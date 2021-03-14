@@ -1,6 +1,6 @@
 # Wu-Tang Name Generator
 
-This project reinforces my understanding on the core concepts of OOP and Javascript ES6 features and their applications. I wanted to keep my code as compact as possible. I wanted to do a Neon theme for this project! The product came out clean, eye catching and fun! By the end of it. I'm excited for the future projects, so stay tuned!
+This is a Wu tang name generator mixed with a would you rather game! Choose your preferred, enter your name and be given a Wu Tang name! I enjoyed this project because choosing the names and questions were fun and hopefully you'll like it too!
 
 &emsp;
 
@@ -12,10 +12,6 @@ This project reinforces my understanding on the core concepts of OOP and Javascr
 
 **Tech used:** 
 Html, CSS, Javascript
-
-# What I Learned
-
- 
 
 ### My Other Projects 
 
