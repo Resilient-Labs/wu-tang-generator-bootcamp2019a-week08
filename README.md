@@ -1,4 +1,4 @@
-# Card Matching Game
+# Wu-tang Name Generator
 
 ![alt tag](https://i.ibb.co/bQPkHYh/site.png)
 
