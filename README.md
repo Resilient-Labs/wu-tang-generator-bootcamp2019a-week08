@@ -4,7 +4,7 @@ This project reinforces my understanding on the core concepts of OOP and Javascr
 
 &emsp;
 
-<img src="https://github.com/DashlinS/wu-tang-generator-bootcamp/tree/answer/images/wutangdemo.gif" width="700">
+<img src="https://github.com/DashlinS/wu-tang-generator-bootcamp/blob/answer/images/wutangdemo.gif" width="700">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://wutangenerator.netlify.app/)
 
