@@ -10,4 +10,4 @@ This Name generator allows a user to input a they're name and are asked a series
 -JAVASCRIPT
 -NODE.JS
 
- ![Screenshot](wuPic.jpg)
+ ![Screenshot](wuPic.png)
