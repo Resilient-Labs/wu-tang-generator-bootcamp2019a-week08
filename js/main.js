@@ -1,4 +1,5 @@
 // Array storing the initial names
+//Got this from a git hub repo!!!
 let nounsArray = ["Madman","Genius","Hunter","Killah","Professional","Artist",
 "Dreamer","Observer","Wizard","Swami","Wanderer","Assassin","Bandit",
 "Leader","Ambassador","Warrior","Menace","Worlock","Conqueror","Lover",
