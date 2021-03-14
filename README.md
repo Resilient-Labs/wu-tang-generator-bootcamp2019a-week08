@@ -8,6 +8,5 @@ This Name generator allows a user to input a they're name and are asked a series
 -HTML
 -CSS
 -JAVASCRIPT
--NODE.JS
 
  ![Screenshot](wuPic.png)
