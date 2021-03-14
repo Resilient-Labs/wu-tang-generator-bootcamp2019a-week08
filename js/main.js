@@ -1,3 +1,4 @@
+//Worked with Garner Gang to complete - Asianna, Julie, Brian, Ziya, Dash, Wade, Tanecia
 document.querySelector('button').addEventListener('click', convert)
 let newName = document.querySelector('.sideContent h2')
 let firstNameArr = ['Big', 'Dirty', 'Inspectah', 'Foolish ', 'Ignint']
