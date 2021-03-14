@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+select {
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 7px;
+  padding: 0px 3rem;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  background: url(../background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Knewave', cursive;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+.firstQuestion{
+  margin-top: 1rem;
+}
+span {
+  font-size: 13rem;
+}
+
+button {
+  padding: 0.9rem 6rem;
+  border-radius: 10px;
+  background: yellow;
+  margin-top: 2rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.grid-container {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid-item {
+  border: 1px solid gray;
+  height: 15rem;
+  margin: 0.5rem;
+}
+
+.hide {
+  /* background-color: black; */
+  opacity: 0.0000001;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.clear {
+  display: block;
+}
+
+.CongratsMessage {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+img {
+  height: inherit;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
