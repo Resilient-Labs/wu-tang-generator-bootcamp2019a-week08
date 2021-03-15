@@ -1,0 +1,95 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  /* margin: 2em; */
+  /* background-color: pink; */
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+  background-image: url('gpanda.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+
+
+}
+
+button{
+background-color: rgb(111,191,112, .4);
+border: none;
+padding: 6px;
+color: white;
+font-weight: 700;
+font-size: 1.2rem;
+border-radius: 5px;
+/* position: absolute;
+top: 1rem;
+left: 1rem; */
+outline: none;
+cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(255,255, 255,.5)
+}
+.main{
+  background-color:  rgba(255,255, 255,.5);
+  width: 57%;
+  height: auto;
+  margin: 2% auto;
+  padding: 2% 3%;
+  border: 5px solid white;
+  margin: 0px;
+  position: absolute;
+  top: 80px;
+  left: 540px;
+}
+.main2{
+  /* background-color:  rgba(255,255, 255,.5); */
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  margin: 0px;
+  color: white;
+}
+.main3{
+  position: absolute;
+  bottom: 65px;
+  right: 325px;
+  margin: 0px;
+}
+label{
+  margin-right: 2%;
+  margin-left: .5%;
+}
+h4{
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(103,100,99);
+}
+#results{
+  font-size: 25px;
+  color: red;
+  font-weight: 800;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
