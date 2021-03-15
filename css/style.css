@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* font-family: 'Anton', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url(../img/wutangGif3.gif);
+  background-size: cover;
+  color: rgb(254,253,84);
+}
+button{
+  background: rgb(254,253,84);
+  font-family: inherit;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'PT Sans Narrow', helvetica, sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1,h2{
+  font-size: 4rem;
+  font-family: 'Anton', sans-serif;
+}
+h2{
+  text-align: center;
+}
+main{
+  background: rgba(0,0,0,.5);
+  margin:5rem auto;
+  width: 60%;
+}
+p{
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+.decoration{
+  display: block;
+  margin:2rem auto;
+}
+.questions{
+  border: .2rem solid black;
+  font-size: 2rem;
+  height: 20rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
