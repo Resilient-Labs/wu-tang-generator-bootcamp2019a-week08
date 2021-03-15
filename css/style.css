@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  background-color: skyblue;
+  text-align: center;
+}
+
+/******************************************
+/* Basic Layout
+/*******************************************/
+body{
+  margin: 0 10%;
+}
+
+
+/******************************************
+/* Other
+/*******************************************/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.hide{
+  opacity: 0.1;
+}
+
+section{
+  border: 3px solid red;
+}
+
+.grid-item{
+  border: 2px solid black;
+  height: 200px;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+/* .hide{
+  background-color: white;
+} */
