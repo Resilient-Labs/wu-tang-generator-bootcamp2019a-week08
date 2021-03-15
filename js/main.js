@@ -31,7 +31,7 @@ for(answer of answers){
 function getName(item){
   console.log(item)
   option = item.target
-  console.log(option.value)
+  console.log(option)
   holdValue.push(parseInt(option.value))
 
   console.log('hello')
