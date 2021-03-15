@@ -1,0 +1,86 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Luckiest Guy', 'Black Ops One', 'Fascinate',  Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background-image: url(../img/background2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+
+}
+aside{
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-family: 'Black Ops One','Luckiest Guy', helvetica, arial, sans-serif;
+  font-size: 3.5rem;
+  color: #FCCB18;
+}
+.questionContainer{
+  width: 40%;
+  float: left;
+}
+section{
+  text-align: left;
+}
+.container{
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  background-color: rgba(180,	68,	31, 0.7);
+  border-radius: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
