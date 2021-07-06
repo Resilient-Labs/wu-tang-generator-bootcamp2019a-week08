@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Wu-Tang Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="imgBox">
+    <img class="logo" src="https://cdn.shopify.com/s/files/1/2262/1373/files/WU-TANG-LOGO_3148x.png?v=1510278597" alt="">
+  </section>
+  <section class="container">
+    <h1>Find your Wu-Tang Name</h1>
+    <p><span>Question 1:</span> What's first your name?</p>
+    <form class="form">
+      <input id="userName" type="text" name="q1" value="" placeholder="Your Name :)" required>
+    </form>
+    <p><span>Question 2:</span> What Season were you born in?</p>
+    <section class="options">
+      <input class="radioSelect" type="radio" id="summer" name="q2" value="summer">
+      <label class="radioBtn" for="fall">Summer</label>
+      <input class="radioSelect" type="radio" id="spring" name="q2" value="spring">
+      <label class="radioBtn" for="True">Spring</label>
+      <input class="radioSelect" type="radio" id="fall" name="q2" value="fall">
+      <label class="radioBtn" for="fall">Fall</label>
+      <input class="radioSelect" type="radio" id="winter" name="q2" value="winter">
+      <label class="radioBtn" for="fall">Winter</label>
+    </section> 
+    <p><span>Question 3:</span> Are you a ride or die?</p>
+    <section class="options">
+      <input class="radioSelect" type="radio" id="yes" name="q3" value="true">
+      <label class="radioBtn" for="True">Facts</label>
+      <input class="radioSelect" type="radio" id="no" name="q3" value="false">
+      <label class="radioBtn" for="True">Nah</label>
+    </section>
+    <p><span>Question 4:</span> Does cash rule everything around you?</p>
+    <section class="options">
+      <input class="radioSelect" type="radio" id="yes" name="q4" value="true">
+      <label class="radioBtn" for="True">Facts</label>
+      <input class="radioSelect" type="radio" id="no" name="q4" value="false">
+      <label class="radioBtn" for="True">Nah</label>
+    </section>
+    <p><span>Question 5:</span> The East Coast has the best rap?</p>
+    <section class="options">
+      <input class="radioSelect" type="radio" id="yes" name="q5" value="true">
+      <label class="radioBtn" for="True">Facts</label>
+      <input class="radioSelect" type="radio" id="no" name="q5" value="false">
+      <label class="radioBtn" for="True">Nah</label>
+    </section>
+    <form class="form">
+      <input id="submitBtn" type="button" name="" value="Submit">
+    </form>
+    <p id="display"></p>
+    <script src="js/app.js"></script>
+  </section>
+</body>
+</html>
